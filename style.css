@@ -1,0 +1,33 @@
+body {
+  background-color: beige;
+}
+
+input,
+button {
+  padding: 5px;
+}
+
+input {
+  width: 150px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.item {
+  font-size: 24px;
+  margin: 5px 0 5px 15px;
+}
+
+.itemCount,
+.itemName {
+  display: inline-block;
+}
+
+.itemCount {
+  width: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  margin-right: 30px;
+}
