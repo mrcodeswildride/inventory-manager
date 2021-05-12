@@ -7,6 +7,8 @@ let categories = {}
 
 addButton.addEventListener(`click`, addItem)
 
+item.focus()
+
 function addItem() {
   let itemName = item.value.trim()
   let categoryName = category.value.trim()

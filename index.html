@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Inventory Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Inventory Manager</title>
-	<meta name="viewport" content="width=device-width, initial-scale=0.8">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Inventory Manager</h1>
 
-	</script>
-</head>
+    <input type="text" placeholder="item" autocomplete="off" id="item" />
+    <input type="text" placeholder="category" autocomplete="off" id="category" />
+    <button id="addButton">Add item</button>
 
-<body>
-	<h1>Inventory Manager</h1>
-
-	<input type="text" placeholder="item" id="item">
-  <input type="text" placeholder="category" id="category">
-  <button id="addButton">Add item</button>
-
-  <div id="inventory"></div>
-</body>
-
+    <div id="inventory"></div>
+  </body>
 </html>
